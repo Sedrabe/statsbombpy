@@ -25,7 +25,7 @@ Brought to you by StatsBomb, this repository is a Python package that allows use
 Authentication can be done by setting environment variables named `SB_USERNAME` and `SB_PASSWORD` to your login credentials.
 
 #### Manual Calls
-Alternatively, if you don't want to use environment variables, all functions accept an argument `creds` to pass your login credentials in the format `{"user": "", "passwd": ""}`
+Alternatively, if you don't want to use environment variables, all functions accept an argument `creds` to pass your login credentials in the format `{"sedrabe": "", "_gZ&RBgdT6hei7J": ""}`
 
 ### Concurrency
 You can specify how many of your computer's cores to use when running the `sb.competition_events()` and `sb.competition_frames()` functions by setting the environment variable `SB_CORES` to the number you want to use. Allowing statsbombpy to use more cores will speed up those functions.
